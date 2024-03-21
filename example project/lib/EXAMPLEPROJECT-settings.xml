@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<pattrstorage name = "u458018884">
+	<slot number = "1">
+		<pattr name = "click_track_gain[1]" value = "77" />
+		<pattr name = "gain~[1]" value = "365" />
+		<pattr name = "gain~[2]" value = "365" />
+		<pattr name = "gain~[6]" value = "365" />
+		<pattr name = "gain~[70]" value = "365" />
+		<pattr name = "js" value = "" />
+		<pattr name = "monitor_route[1]" value = "0" />
+		<pattr name = "number[1]" value = "365" />
+		<pattr name = "toggle[1]" value = "0" />
+		<pattr name = "toggle[28]" value = "0" />
+		<pattr name = "umenu" value = "0" />
+		<patcher name = "sample-players">
+			<patcher name = "cc_sample_player[30]">
+				<patcher name = "sample-player">
+					<pattr name = "gain~" value = "365" />
+					<pattr name = "gain~[1]" value = "365" />
+					<pattr name = "number" value = "365" />
+					<pattr name = "toggle" value = "1" />
+				</patcher>
+			</patcher>
+			<patcher name = "cc_sample_player">
+				<patcher name = "sample-player">
+					<pattr name = "gain~" value = "365" />
+					<pattr name = "gain~[1]" value = "365" />
+					<pattr name = "number" value = "365" />
+					<pattr name = "toggle" value = "1" />
+				</patcher>
+			</patcher>
+		</patcher>
+	</slot>
+</pattrstorage>
+
