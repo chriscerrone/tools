@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 312.0, 202.0, 753.0, 485.0 ],
+		"rect" : [ 312.0, 202.0, 900.0, 484.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"linecount" : 6,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 611.0, 281.0, 262.0, 87.0 ],
+					"text" : "this patcher is only opened when you want to edit individual sample volumes.\n\nwhen setting this up for a piece, you can use the [generate controls] subpatcher to automatically make these"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -4161,7 +4173,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 602.5, 534.0, 109.0, 22.0 ],
+					"patching_rect" : [ 748.0, 391.0, 125.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -4169,7 +4181,7 @@
 						"tags" : ""
 					}
 ,
-					"text" : "p generate-players",
+					"text" : "p generate-controllers",
 					"varname" : "generate-players"
 				}
 
@@ -4183,7 +4195,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 602.5, 565.0, 67.0, 22.0 ],
+					"patching_rect" : [ 748.0, 422.0, 67.0, 22.0 ],
 					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
