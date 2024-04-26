@@ -49560,7 +49560,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 209.0, 448.0, 1068.0, 542.0 ],
+						"rect" : [ 459.0, 157.0, 1068.0, 542.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
