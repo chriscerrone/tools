@@ -59165,6 +59165,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
+					"hidden" : 1,
 					"order" : 10,
 					"source" : [ "obj-55", 1 ]
 				}
@@ -59236,6 +59237,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-48", 0 ],
+					"hidden" : 1,
 					"order" : 18,
 					"source" : [ "obj-55", 1 ]
 				}
