@@ -23,3 +23,4 @@ any effects will need their own format as needed, but generally they go:
 
 
 ![sample playback](imgs/sample-playback.png?raw=true "sample playback")
+<img src="imgs/sample-playback.png" width="150" />
