@@ -33,7 +33,7 @@ note that step 3 has the same first argument (2000). this allows auto sequenced 
 <br/><br/>
 
 
-##auto-sequencing process
+## auto-sequencing process
 
 this section will detail how the auto sequencing actually works. 
 
@@ -45,13 +45,13 @@ inside **seek-and-playstuff** is pretty simple. we'll take a look at each of the
 
 <img src="imgs/seek-and-playstuff.png" width="400" />
 
-###auto-step-triggering
+### auto-step-triggering
 
 this handles the autotomatic triggering of sequenced steps during normal playback. in other words, this is for when the piece has been set in motion via a cue trigger and is now proceeding as usual for performance.
 
 <img src="imgs/auto-step-triggering.png" width="525" />
 
-###seek-distribution
+### seek-distribution
 
 this is only used in the event that a rehearsal-point is selected, or in other words that a cue or movement has been selected to be skipped to. samples that should have already been playing at that point in the piece are sent seek values so that they are synced up with the score.
 
@@ -66,7 +66,7 @@ once that list of **samples-playing** has been collected, we use it to then iter
 <img src="imgs/seek-distribution.png" width="550" />
  
  
-###sample-playback
+### sample-playback
  
 this part is pretty straightforward, just formatting and sending out the actual play messages to their respective samples.
  
