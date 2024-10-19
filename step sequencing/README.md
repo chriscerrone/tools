@@ -22,5 +22,4 @@ any effects will need their own format as needed, but generally they go:
 `[input channel] [0-1 enable/disable] [any additional control steps]`
 
 
-![sample playback](imgs/sample-playback.png?raw=true "sample playback")
-<img src="imgs/sample-playback.png" width="150" />
+<img src="imgs/sample-playback.png" width="250" />
