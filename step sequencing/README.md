@@ -20,3 +20,6 @@ e.g. if step 3 is to be played 2000ms after step 2, your steps would look like t
 any effects will need their own format as needed, but generally they go:
 
 `[input channel] [0-1 enable/disable] [any additional control steps]`
+
+
+![sample playback](imgs/sample-playback.png?raw=true "sample playback")
