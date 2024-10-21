@@ -57,7 +57,7 @@ this is only used in the event that a rehearsal-point is selected, or in other w
 
 <img src="imgs/seek-distribution-main.png" width="450" />
 
-once a step number has been chosen, we must iterate through every step in **sample-steps.txt** from the beginning to determine which samples should be playing. we do this by tracking which samples have been sent an "on" message and store it. if we see that it later gets an "off" message, we remove it from the list of **samples-playing**. also note, that the second inlet is used to send out all the stored samples once the **rehearsal-point-trigger** is received.
+once a step number has been chosen, we must iterate through every step in **sample-steps.txt** from the beginning to determine which samples should be playing. we do this by tracking which samples have been sent an "on" message and store it. if we see that it later gets an "off" message, we remove it from the list of **samples-playing**. also note that the second inlet receives a dump message to send out all the stored samples once the **rehearsal-point-trigger** is received.
 
 <img src="imgs/sample-tracking-and-triggering.png" width="450" />
  
