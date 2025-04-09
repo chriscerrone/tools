@@ -39,7 +39,7 @@ note, in some cases you may need the auto-sequencing timer to trigger relative t
 2, 8000 2 1 0;
 3, 8000 reset-seek 2000 3 1 0;
 4, 7000 1 0 10 2 0 10;
-5, 0 22 0 10;
+5, 0 3 0 10;
 ```
 This would be read by the patch as:
 | Queue              | elapsed ms at start of cue | Description | How To Advance |
