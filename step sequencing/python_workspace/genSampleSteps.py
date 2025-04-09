@@ -1,3 +1,8 @@
+
+# File paths
+input_file = 'hub.csv'
+output_file = 'sample-steps.txt'
+
 def timestamp_to_milliseconds(timestamp):
     """
     Converts a timestamp in the format MM:SS.MMM or M:SS.MMM into total milliseconds.
@@ -24,10 +29,6 @@ def timestamp_to_milliseconds(timestamp):
     except ValueError:
         # Return None if the timestamp is invalid
         return None
-
-# File paths
-input_file = 'hub.csv'
-output_file = 'sample-steps.txt'
 
 RESET_SEEK = "reset-seek"
 
