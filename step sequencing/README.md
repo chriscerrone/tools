@@ -12,9 +12,20 @@ NOTE: the auto time must always be put in the preceding step
 
 e.g. if step 3 is to be played 2000ms after step 2, your steps would look like this:
 
-> 1, 0 1 1 0;<br/>
-> 2, 2000 2 1 0;<br/>
-> 3, 0 3 1 0;<br/>
+```
+1, 0 1 1 0;
+2, 2000 2 1 0;
+3, 0 3 1 0;
+```
+
+This would be interpreted as:
+
+| Queue              | Description | How To Advance |
+| :---------------- | :------ | :------ |
+| 0 |  You open the patch, no audio is playing, cue "0" is displayed  | press space bar or button to advance
+| 1 |   First audio file, ( "1", in the file system as 1.wav, 1.m4a, etc.) begins to play with no fade in   | patch waits for space bar or button click to advance from 1 to 2
+| 2 |  1.wav is some variable amount into playback, and file "2" starts playing from the start   | after 2 seconds, patch automatically advances from 2 to 3
+| 3 |  1.wav and 2.wav continue playing (2 is 2000ms elapsed), and 3.wav is added to the mix | when the audio files play out, the piece ends, and there is no next queue.
 
 
 any effects will need their own format as needed, but generally they go:
@@ -23,12 +34,24 @@ any effects will need their own format as needed, but generally they go:
 
 note, in some cases you may need the auto-sequencing timer to trigger relative to a new sample, e.g. sample 3 may be the new starting point. for this you must use a **reset-seek** message, which looks like this:
 
-> 1, 0 1 1 0; <br/>
-> 2, 2000 2 1 0; // triggers step 3 after 2000ms <br/>
-> 3, 2000 reset-seek 1000 3 1 0; 	// step 3 is the new start time, triggers step 4 after 1000ms <br/>
-> 4, 2500 4 1 0; // proceeds as normal <br/>
+```
+1, 3000 1 1 0;
+2, 8000 2 1 0;
+3, 8000 reset-seek 2000 3 1 0;
+4, 7000 1 0 10 2 0 10;
+5, 0 22 0 10;
+```
+This would be read by the patch as:
+| Queue              | elapsed ms at start of cue | Description | How To Advance |
+| :---------------- | :------ | :------ | :------ |
+| 0 | 0 |  You open the patch, no audio is playing, cue "0" is displayed  | press space bar or button to advance
+| 1 | 0 |   First audio file, ( "1", in the file system as 1.wav) begins to play with no fade in   | after 3 seconds, patch automatically advances from 1 to 2
+| 2 | 3000 |  1.wav is 3000ms into playback, and file "2" starts playing   | after 5 seconds (8000-3000), patch automatically advances from 2 to 3
+| 3 | 8000 | 1.wav is at 8000ms<br/>2.wav is at 5000ms<br/>3.wav starts playing | after 2 seconds (2000, after reset-seek), patch automatically advances from 3 to 4
+4 | 10000 | 1.wav and 2.wav both stop playing with a 10ms fade out (10ms to prevent clipping)<br/>3.wav is at 2000ms | after 5 seconds (7000-2000), patch automatically advances from 4 to 5
+5 | 15000 | 3.wav is at 7000ms and stops with 10ms fade out | no next cue
 
-note that step 3 has the same first argument (2000). this allows auto sequenced steps prior to the **reset-seek** to still get the correct seek time.
+note that step 3 has the same first argument (8000). this allows auto sequenced steps prior to the **reset-seek** to still get the correct seek time.
 
 <br/><br/>
 
