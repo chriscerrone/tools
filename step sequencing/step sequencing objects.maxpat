@@ -268,7 +268,7 @@
 
 											}
  ],
-										"originid" : "pat-56684"
+										"originid" : "pat-61062"
 									}
 ,
 									"patching_rect" : [ 271.5, 251.0, 75.0, 22.0 ],
@@ -419,7 +419,7 @@
 
 							}
  ],
-						"originid" : "pat-56682"
+						"originid" : "pat-61060"
 					}
 ,
 					"patching_rect" : [ 21.0, 280.0, 153.0, 22.0 ],
@@ -863,7 +863,7 @@
 
 											}
  ],
-										"originid" : "pat-56688"
+										"originid" : "pat-61066"
 									}
 ,
 									"patching_rect" : [ 79.0, 95.0, 106.0, 22.0 ],
@@ -1063,7 +1063,7 @@
 
 															}
  ],
-														"originid" : "pat-56692"
+														"originid" : "pat-61070"
 													}
 ,
 													"patching_rect" : [ 19.0, 60.0, 97.0, 22.0 ],
@@ -1552,7 +1552,7 @@
 
 											}
  ],
-										"originid" : "pat-56690"
+										"originid" : "pat-61068"
 									}
 ,
 									"patching_rect" : [ 203.0, 62.0, 89.0, 22.0 ],
@@ -1649,7 +1649,7 @@
 
 							}
  ],
-						"originid" : "pat-56686"
+						"originid" : "pat-61064"
 					}
 ,
 					"patching_rect" : [ 299.0, 184.0, 73.0, 22.0 ],
@@ -1821,6 +1821,7 @@
 						"classnamespace" : "box",
 						"rect" : [ 59.0, 119.0, 1080.0, 548.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"color" : [ 0.426674067974091, 0.426674067974091, 0.426674067974091, 1.0 ],
@@ -1879,6 +1880,7 @@
 										"gridsize" : [ 15.0, 15.0 ],
 										"toolbarvisible" : 0,
 										"boxanimatetime" : 0,
+										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-4",
@@ -1899,6 +1901,7 @@
 														"classnamespace" : "box",
 														"rect" : [ 1252.0, 696.0, 490.0, 311.0 ],
 														"gridsize" : [ 15.0, 15.0 ],
+														"visible" : 1,
 														"boxes" : [ 															{
 																"box" : 																{
 																	"id" : "obj-3",
@@ -2108,7 +2111,7 @@
 
 																							}
  ],
-																						"originid" : "pat-56752"
+																						"originid" : "pat-61080"
 																					}
 ,
 																					"patching_rect" : [ 92.0, 136.0, 71.0, 22.0 ],
@@ -2286,7 +2289,7 @@
 
 																							}
  ],
-																						"originid" : "pat-56754"
+																						"originid" : "pat-61082"
 																					}
 ,
 																					"patching_rect" : [ 405.5, 211.0, 137.5, 22.0 ],
@@ -2521,7 +2524,7 @@
 
 																							}
  ],
-																						"originid" : "pat-56756"
+																						"originid" : "pat-61084"
 																					}
 ,
 																					"patching_rect" : [ 234.0, 807.0, 35.0, 22.0 ],
@@ -2550,7 +2553,7 @@
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
 																					"patching_rect" : [ 234.0, 942.0, 50.0, 62.0 ],
-																					"text" : ";\r3click-seek 58588"
+																					"text" : ";\r3click-seek 143647"
 																				}
 
 																			}
@@ -2773,7 +2776,7 @@
 
 																							}
  ],
-																						"originid" : "pat-56758"
+																						"originid" : "pat-61086"
 																					}
 ,
 																					"patching_rect" : [ 207.0, 511.0, 35.0, 22.0 ],
@@ -2993,7 +2996,7 @@
 
 																							}
  ],
-																						"originid" : "pat-56760"
+																						"originid" : "pat-61088"
 																					}
 ,
 																					"patching_rect" : [ 176.0, 409.0, 35.0, 22.0 ],
@@ -3386,7 +3389,7 @@
 
 																			}
  ],
-																		"originid" : "pat-56750"
+																		"originid" : "pat-61078"
 																	}
 ,
 																	"patching_rect" : [ 20.0, 213.0, 106.0, 22.0 ],
@@ -3557,7 +3560,7 @@
 
 																			}
  ],
-																		"originid" : "pat-56762"
+																		"originid" : "pat-61090"
 																	}
 ,
 																	"patching_rect" : [ 96.0, 59.0, 138.0, 22.0 ],
@@ -3621,6 +3624,7 @@
 																		"classnamespace" : "box",
 																		"rect" : [ 112.0, 144.0, 308.0, 471.0 ],
 																		"gridsize" : [ 15.0, 15.0 ],
+																		"visible" : 1,
 																		"boxes" : [ 																			{
 																				"box" : 																				{
 																					"comment" : "",
@@ -3970,7 +3974,7 @@
 
 																			}
  ],
-																		"originid" : "pat-56764"
+																		"originid" : "pat-61092"
 																	}
 ,
 																	"patching_rect" : [ 139.0, 213.0, 181.0, 22.0 ],
@@ -4156,7 +4160,7 @@
 
 															}
  ],
-														"originid" : "pat-56748"
+														"originid" : "pat-61076"
 													}
 ,
 													"patching_rect" : [ 128.0, 161.0, 106.0, 22.0 ],
@@ -4375,7 +4379,7 @@
 
 																							}
  ],
-																						"originid" : "pat-56770"
+																						"originid" : "pat-61098"
 																					}
 ,
 																					"patching_rect" : [ 29.0, 178.0, 39.0, 22.0 ],
@@ -4546,7 +4550,7 @@
 
 																			}
  ],
-																		"originid" : "pat-56768"
+																		"originid" : "pat-61096"
 																	}
 ,
 																	"patching_rect" : [ 289.0, 20.0, 99.0, 22.0 ],
@@ -5027,11 +5031,11 @@
 
 															}
  ],
-														"originid" : "pat-56766"
+														"originid" : "pat-61094"
 													}
 ,
-													"patching_rect" : [ 218.0, 131.0, 113.0, 22.0 ],
-													"text" : "p auto-step-counter"
+													"patching_rect" : [ 218.0, 131.0, 123.0, 22.0 ],
+													"text" : "p auto-step-triggering"
 												}
 
 											}
@@ -5076,8 +5080,9 @@
 														}
 ,
 														"classnamespace" : "box",
-														"rect" : [ 480.0, 176.0, 293.0, 529.0 ],
+														"rect" : [ 480.0, 176.0, 273.0, 448.0 ],
 														"gridsize" : [ 15.0, 15.0 ],
+														"visible" : 1,
 														"boxes" : [ 															{
 																"box" : 																{
 																	"id" : "obj-8",
@@ -5123,7 +5128,7 @@
 																	"numinlets" : 0,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 95.0, 177.0, 30.0, 30.0 ]
+																	"patching_rect" : [ 95.0, 167.0, 30.0, 30.0 ]
 																}
 
 															}
@@ -5136,7 +5141,7 @@
 																	"numinlets" : 1,
 																	"numoutlets" : 2,
 																	"outlettype" : [ "bang", "" ],
-																	"patching_rect" : [ 26.0, 331.0, 39.0, 22.0 ],
+																	"patching_rect" : [ 26.0, 261.0, 39.0, 22.0 ],
 																	"text" : "t b l"
 																}
 
@@ -5150,7 +5155,7 @@
 																	"numinlets" : 1,
 																	"numoutlets" : 3,
 																	"outlettype" : [ "", "", "" ],
-																	"patching_rect" : [ 46.0, 364.0, 172.0, 22.0 ],
+																	"patching_rect" : [ 46.0, 294.0, 172.0, 22.0 ],
 																	"text" : "unjoin"
 																}
 
@@ -5165,8 +5170,8 @@
 																	"numinlets" : 2,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 26.0, 433.0, 95.0, 49.0 ],
-																	"text" : ";\r3click-play-fade 1 30"
+																	"patching_rect" : [ 26.0, 363.0, 95.0, 49.0 ],
+																	"text" : ";\r15-play-fade 1 10"
 																}
 
 															}
@@ -5179,7 +5184,7 @@
 																	"numinlets" : 3,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 46.0, 398.0, 172.0, 22.0 ],
+																	"patching_rect" : [ 46.0, 328.0, 172.0, 22.0 ],
 																	"text" : "sprintf \\;%s-play-fade %s %s"
 																}
 
@@ -5208,7 +5213,7 @@
 																	"numinlets" : 2,
 																	"numoutlets" : 2,
 																	"outlettype" : [ "", "" ],
-																	"patching_rect" : [ 26.0, 293.0, 61.0, 22.0 ],
+																	"patching_rect" : [ 26.0, 223.0, 61.0, 22.0 ],
 																	"text" : "zl group 3"
 																}
 
@@ -5237,7 +5242,7 @@
 , 															{
 																"patchline" : 																{
 																	"destination" : [ "obj-26", 1 ],
-																	"midpoints" : [ 55.5, 428.5, 111.5, 428.5 ],
+																	"midpoints" : [ 55.5, 358.5, 111.5, 358.5 ],
 																	"source" : [ "obj-18", 0 ]
 																}
 
@@ -5294,7 +5299,7 @@
 , 															{
 																"patchline" : 																{
 																	"destination" : [ "obj-2", 0 ],
-																	"midpoints" : [ 104.5, 285.0, 35.5, 285.0 ],
+																	"midpoints" : [ 104.5, 213.1953125, 35.5, 213.1953125 ],
 																	"source" : [ "obj-4", 0 ]
 																}
 
@@ -5322,7 +5327,7 @@
 
 															}
  ],
-														"originid" : "pat-56772"
+														"originid" : "pat-61100"
 													}
 ,
 													"patching_rect" : [ 38.0, 192.0, 109.0, 22.0 ],
@@ -5372,7 +5377,7 @@
 
 											}
  ],
-										"originid" : "pat-56746"
+										"originid" : "pat-61074"
 									}
 ,
 									"patching_rect" : [ 64.5, 454.0, 116.0, 22.0 ],
@@ -5910,7 +5915,7 @@
 
 											}
  ],
-										"originid" : "pat-56726"
+										"originid" : "pat-61102"
 									}
 ,
 									"patching_rect" : [ 129.5, 96.0, 69.0, 22.0 ],
@@ -6037,7 +6042,7 @@
 
 															}
  ],
-														"originid" : "pat-56730"
+														"originid" : "pat-61106"
 													}
 ,
 													"patching_rect" : [ 282.0, 99.0, 29.5, 22.0 ],
@@ -6264,7 +6269,7 @@
 
 											}
  ],
-										"originid" : "pat-56728"
+										"originid" : "pat-61104"
 									}
 ,
 									"patching_rect" : [ 129.5, 136.0, 125.0, 22.0 ],
@@ -6557,7 +6562,7 @@
 
 											}
  ],
-										"originid" : "pat-56732"
+										"originid" : "pat-61108"
 									}
 ,
 									"patching_rect" : [ 129.5, 235.0, 281.0, 22.0 ],
@@ -6680,7 +6685,7 @@
 
 											}
  ],
-										"originid" : "pat-56734"
+										"originid" : "pat-61110"
 									}
 ,
 									"patching_rect" : [ 220.5, 169.0, 40.0, 22.0 ],
@@ -6858,7 +6863,7 @@
 
 											}
  ],
-										"originid" : "pat-56736"
+										"originid" : "pat-61112"
 									}
 ,
 									"patching_rect" : [ 265.5, 136.0, 79.0, 22.0 ],
@@ -6890,48 +6895,6 @@
 									"outlettype" : [ "int", "", "", "int" ],
 									"patching_rect" : [ 129.5, 196.0, 200.0, 22.0 ],
 									"text" : "counter"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"color" : [ 0.426674067974091, 0.426674067974091, 0.426674067974091, 1.0 ],
-									"id" : "obj-29",
-									"maxclass" : "newobj",
-									"numinlets" : 0,
-									"numoutlets" : 0,
-									"patcher" : 									{
-										"fileversion" : 1,
-										"appversion" : 										{
-											"major" : 9,
-											"minor" : 0,
-											"revision" : 5,
-											"architecture" : "x64",
-											"modernui" : 1
-										}
-,
-										"classnamespace" : "box",
-										"rect" : [ 59.0, 125.0, 619.0, 389.0 ],
-										"gridsize" : [ 15.0, 15.0 ],
-										"boxes" : [ 											{
-												"box" : 												{
-													"id" : "obj-39",
-													"linecount" : 23,
-													"maxclass" : "comment",
-													"numinlets" : 1,
-													"numoutlets" : 0,
-													"patching_rect" : [ 25.0, 16.0, 400.0, 328.0 ],
-													"text" : "sample steps format\n[ms delay for auto, 0 is manual] [normal format]\n\nNOTE: the delay must be entered in the previous step to that steps delay.\nin other words, if step 2 is meant to play 2000ms after step 1 is triggered, and step 3 is meant to be manual, the steps would look like:\n    1, 2000 1 1 10;\n    2, 0 2 1 10;\n    3, etc etc;\n\n\nALSO NOTE if you need to reset the delay time from a new sample position WITHOUT a manual step in between them\ne.g.\n     auto 1: counts from sample 1\n     auto 2: counts from sample 1\n     auto 3: counts from sample 2\nyou need to use the syntax\n[delay for auto] reset-seek [delay for new start] [normal format]\n\ne.g.\n3, 1000 reset-seek 500 3 1 10;\n\n"
-												}
-
-											}
- ],
-										"lines" : [  ],
-										"originid" : "pat-56738"
-									}
-,
-									"patching_rect" : [ 216.5, 376.0, 155.0, 22.0 ],
-									"text" : "p sample-step-format-notes"
 								}
 
 							}
@@ -7485,7 +7448,7 @@
 
 											}
  ],
-										"originid" : "pat-56740"
+										"originid" : "pat-61116"
 									}
 ,
 									"patching_rect" : [ 546.5, 454.0, 89.0, 22.0 ],
@@ -8117,7 +8080,7 @@
 
 											}
  ],
-										"originid" : "pat-56742"
+										"originid" : "pat-61118"
 									}
 ,
 									"patching_rect" : [ 874.5, 454.0, 89.0, 22.0 ],
@@ -8379,7 +8342,7 @@
 
 											}
  ],
-										"originid" : "pat-56744"
+										"originid" : "pat-61120"
 									}
 ,
 									"patching_rect" : [ 64.5, 347.0, 84.0, 22.0 ],
@@ -8686,7 +8649,7 @@
 
 							}
  ],
-						"originid" : "pat-56694"
+						"originid" : "pat-61072"
 					}
 ,
 					"patching_rect" : [ 26.0, 12.0, 47.0, 22.0 ],
@@ -8766,7 +8729,7 @@
 
 			}
  ],
-		"originid" : "pat-56680",
+		"originid" : "pat-61058",
 		"parameters" : 		{
 			"obj-11" : [ "button[3]", "button[2]", 0 ],
 			"obj-15" : [ "number[1]", "number", 0 ],
@@ -8784,37 +8747,23 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "granulator-steps.txt",
-				"bootpath" : "~/Dropbox/max/CAREER STUFF/freelance/clients/chris cerrone/tools/example project/lib",
-				"patcherrelativepath" : "../example project/lib",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "reverb-steps.txt",
-				"bootpath" : "~/Dropbox/max/CAREER STUFF/freelance/clients/chris cerrone/tools/example project/lib",
-				"patcherrelativepath" : "../example project/lib",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "sample-steps.txt",
-				"bootpath" : "~/Dropbox/max/CAREER STUFF/freelance/clients/chris cerrone/tools/example project/lib",
-				"patcherrelativepath" : "../example project/lib",
+				"bootpath" : "~/Dropbox/max/CAREER STUFF/freelance/clients/chris cerrone/tools/step sequencing",
+				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "step-is-manual.txt",
-				"bootpath" : "~/Dropbox/max/CAREER STUFF/freelance/clients/chris cerrone/tools/example project/lib",
-				"patcherrelativepath" : "../example project/lib",
+				"bootpath" : "~/Dropbox/max/CAREER STUFF/freelance/clients/chris cerrone/tools/step sequencing",
+				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "step-sequencer-info.txt",
-				"bootpath" : "~/Dropbox/max/CAREER STUFF/freelance/clients/chris cerrone/tools/example project/lib",
-				"patcherrelativepath" : "../example project/lib",
+				"bootpath" : "~/Dropbox/max/CAREER STUFF/freelance/clients/chris cerrone/tools/step sequencing",
+				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
