@@ -68,7 +68,7 @@ This would be read by the patch as:
 
 this section will detail how the auto sequencing actually works. 
 
-in the "steps" subpatcher where all the text files are triggered, you'll see something like what's below. mostly the top section has to do with sending/receiving the cue triggers. the only main thing to look out for here is that the main step counter needs to be hooked up to a **receive sequenced-bangs**. otherwise, everything is going to happen in the red highlighted **seek-and-playstuff** subpatcher.
+in the "steps" subpatcher where all the text files are triggered, you'll see something like what's below. mostly the top section has to do with sending/receiving the cue triggers. otherwise, everything is going to happen in the red highlighted **seek-and-playstuff** subpatcher.
 
 <img src="imgs/steps.png" width="500" />
 
@@ -78,7 +78,7 @@ inside **seek-and-playstuff** is pretty simple. we'll take a look at each of the
 
 ### auto-step-triggering
 
-this handles the autotomatic triggering of sequenced steps during normal playback. in other words, this is for when the piece has been set in motion via a cue trigger and is now proceeding as usual for performance.
+this handles the autotomatic triggering of sequenced steps during normal playback. in other words, this is for when the piece has been set in motion via a manual cue trigger (spacebar) and is now proceeding without further input.
 
 <img src="imgs/auto-step-triggering.png" width="525" />
 
@@ -88,7 +88,7 @@ this is only used in the event that a rehearsal-point is selected, or in other w
 
 <img src="imgs/seek-distribution-main.png" width="450" />
 
-once a step number has been chosen, we must iterate through every step in **sample-steps.txt** from the beginning to determine which samples should be playing. we do this by tracking which samples have been sent an "on" message and store it. if we see that it later gets an "off" message, we remove it from the list of **samples-playing**. also note that the second inlet receives a dump message to send out all the stored samples once the **rehearsal-point-trigger** is received.
+once a step number has been chosen, we must iterate through every step in **sample-steps.txt** from the beginning to determine which samples should be playing. we do this by tracking which samples have been sent an "on" message and store it. if we see that it later gets an "off" message, we remove it from the list of **samples-playing**. also note that the second inlet receives a dump message to send out all the stored samples once the **rehearsal-point-trigger** (i.e. spacebar trigger) is received.
 
 <img src="imgs/sample-tracking-and-triggering.png" width="450" />
  
